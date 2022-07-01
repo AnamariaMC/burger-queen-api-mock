@@ -2,27 +2,28 @@ POST http://localhost:8080/login HTTP/1.1
 content-type: application/json
 
 {
-    "email": "grace.hopper@systers.xyz",
+    "email": "admin@burger.com",
     "password": "123456"
 }
 
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGJ1cmdlci5jb20iLCJpYXQiOjE2NTUxNDA4ODMsImV4cCI6MTY1NTE0NDQ4Mywic3ViIjoiMSJ9.iE979yf9mjSfVZL2ZZYFVT9uNjofe6JVD6qXMKsgqLM
 
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IndhaXRlckBidXJnZXIuY29tIiwiaWF0IjoxNjUzNDkwNzEwLCJleHAiOjE2NTM0OTQzMTAsInN1YiI6IjIifQ.-_bfS8DfCCjdcX54xwUSwNGctoCc7cjwTHrUy-OnKEA
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAYnVyZ2VyLmNvbSIsImlhdCI6MTY1NDExMjU4NCwiZXhwIjoxNjU0MTE2MTg0LCJzdWIiOiIzIn0.ja9v1rj_HMzpYlRZnpEUHiaZEv8m5bea3tUjZJBAmrA
 
 PATCH http://localhost:8080/orders/2 HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzNDAzNSwiZXhwIjoxNjUwMjM3NjM1LCJzdWIiOiIyIn0.q6lDwW_wyK6-8-lUyiLUwnoowRLsvuFblu1yufkaa_Q
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAYnVyZ2VyLmNvbSIsImlhdCI6MTY1NDc5NDEyNCwiZXhwIjoxNjU0Nzk3NzI0LCJzdWIiOiIzIn0.UV2pHysFCLNRLcZX0Vk_OZRjCzdGdObNk4rVaxJeS4o
 
 {
     "status": "delivered",
     "dateProcessed": "2022-03-05 16:00"
 }
+
