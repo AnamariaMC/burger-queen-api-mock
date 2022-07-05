@@ -423,9 +423,10 @@
           }
         }
       ],
-      "status": "pending",
+      "status": "delivering",
       "dateEntry": "2022-06-29 22:55:22",
-      "id": 25
+      "id": 25,
+      "dateProcessed": "2022-07-01 15:02:26"
     },
     {
       "userId": 2,
@@ -454,9 +455,72 @@
           }
         }
       ],
-      "status": "pending",
+      "status": "delivering",
       "dateEntry": "2022-06-29 23:02:39",
-      "id": 26
+      "id": 26,
+      "dateProcessed": "2022-07-01 15:02:28"
+    },
+    {
+      "userId": 2,
+      "client": "Patricia ",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 4,
+            "name": "Hamburguesa",
+            "price": 20000,
+            "image": "https://res.cloudinary.com/proyectosanamariamc/image/upload/v1653495331/hamburguesa_t0allw.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 3,
+          "product": {
+            "id": 3,
+            "name": "Gaseosa",
+            "price": 5000,
+            "image": "https://res.cloudinary.com/proyectosanamariamc/image/upload/v1653495331/gaseosa_ap3fn2.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "2022-07-01 15:42:48",
+      "id": 27
+    },
+    {
+      "userId": 2,
+      "client": "Oscar",
+      "products": [
+        {
+          "qty": 2,
+          "product": {
+            "id": 2,
+            "name": "Café",
+            "price": 5000,
+            "image": "https://res.cloudinary.com/proyectosanamariamc/image/upload/v1653495331/cafe_rzi12n.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 5,
+            "name": "Papitas",
+            "price": 7000,
+            "image": "https://res.cloudinary.com/proyectosanamariamc/image/upload/v1653495331/papitas_avla2b.png",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "2022-07-01 15:43:17",
+      "id": 28
     }
   ],
   "products": [
@@ -533,14 +597,6 @@
         "admin": true
       },
       "id": 3
-    },
-    {
-      "email": "waiter1@burger.com",
-      "password": "$2a$10$SDZsptVh/v9p2/EHNyvFZO/H/7VOxgFPGMqm77nr133laAx6IhHdq",
-      "roles": {
-        "waiter": true
-      },
-      "id": 4
     }
   ]
 }
